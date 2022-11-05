@@ -15,7 +15,7 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '/', component: HomeComponent },
+      { path: '', component: HomeComponent },
       { path: 'timer', component: TimerComponent },
       { path: 'tasks', component: TasksComponent },
     ]),
